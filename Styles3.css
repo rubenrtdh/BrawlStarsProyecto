@@ -1,0 +1,388 @@
+/* Añade estilos específicos para la página de modos de juego */
+
+.modo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.modo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.modo p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilo para el enlace activo */
+.nav-link.active {
+    color: white;
+    background-color: black;
+}
+
+/* Estilo para el botón de descarga */
+#download-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#download-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para los iconos de redes sociales en el pie de página */
+.social-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Agrega aquí cualquier estilo adicional que necesites */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+h1, h2 {
+    font-size: 36px;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 193, 7, 0.7);
+    z-index: 1;
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegurémonos de que esté por encima del video y el banner */
+}
+
+.nav-link {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    transition: color 0.3s ease, transform 0.3s ease, background-image 0.3s ease;
+    /* Para que los enlaces ocupen todo el espacio disponible */
+}
+
+/* Agregar efecto al pasar el mouse sobre los botones del menú de navegación */
+.nav-link:hover {
+    color: white !important; /* Cambia el color del texto a blanco */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}
+
+
+nav {
+    max-width: 1024px;
+    margin: 0 auto;
+    float: right;
+}
+
+header img {
+    padding: 18px 10px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    transition: color 0.3s ease, transform 0.3s ease, background-image 0.3s ease; /* Agregamos el efecto de transición también al fondo */
+}
+
+/* Agregar efecto al pasar el mouse sobre los botones del menú de navegación */
+nav ul li a:hover {
+    color: white !important; /* Cambia el color del texto a blanco */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+}
+
+
+.parallax {
+    background-image: url("https://via.placeholder.com/1500x800");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+}
+
+.call-to-action {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.call-to-action .cta-content {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+}
+
+.call-to-action img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+p.big {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+button {
+    padding: 15px 40px;
+    background-color: #FFC107;
+    font-size: 1em;
+    color: black;
+    transition: background 0.5s linear;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD54F;
+    transform: scale(1.05);
+}
+
+.info-box {
+    background-color: #536DFE;
+    margin: 0 auto;
+    padding: 110px 0;
+    color: white;
+    text-align: center;
+}
+.info-content p {
+    text-align: center;
+}
+
+
+#flex-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex-basis: 30%;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+#flex-p p {
+    padding: 30px;
+    max-width: 300px;
+}
+
+.fa-gem, .fa-trophy, .fa-users {
+    font-size: 2.7em;
+    display: block;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.description-box {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.description-box h2 {
+    text-align: center;
+}
+
+.img-container {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.img-container img, .img-container p {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.img-container p {
+    text-align: justify;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    clear: both;
+    background-color: black;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    .img-container { 
+        width: 100%;   
+        margin: 0;
+    }
+}
+
+.logo-link {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+
+.logo {
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    width: auto;
+    height: auto;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none; /* Cambiamos esto a "none" para permitir hacer clic en los elementos subyacentes */
+}
+
+
+/* El CSS actualizado para el banner amarillo */
+.banner-yellow {
+    background-color: #ffc107;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.banner-yellow-translucent {
+    opacity: 0.7;
+}
+
+/* Añadir efecto de escala al pasar el mouse sobre los iconos */
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+/* Añadir efecto de escala al pasar el mouse sobre las imágenes de las últimas actualizaciones */
+.img-container img:hover {
+    transform: scale(1.1);
+}

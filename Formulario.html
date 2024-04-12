@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Brawl Stars Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="banner-yellow">
+    <nav>
+        <a href="#" id="banner-link" class="logo-link"><img src="https://www.viniloscasa.com/38444-thickbox/vinilos-y-pegatinas-logo-brawl-stars.jpg" alt="Brawl Stars logo" class="logo"></a>
+        <div class="button-container"> <!-- Nuevo contenedor para los botones -->
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="Personajes1.html" class="nav-link">Personajes</a>
+            <a href="Modos de Juego.html" class="nav-link">Modos de Juego</a>
+            <a href="Formulario.html" class="nav-link">Formulario</a>
+        </div>
+    </nav>
+  </header>
+
+    <div class="parallax">
+      <div class="video-container">
+          <iframe width="1500" height="800" src="https://www.youtube.com/embed/QXXpJHR4m8w?si=_0FkNx7taQJbVjYk&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=QXXpJHR4m8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="video-overlay"></div>
+      </div>
+    </div>    
+
+    <div class="info-box">
+        <h2>¡Deja que te conozcamos mejor!</h2>
+        <div id="flex-p">  
+            <p class="big"><i class="fas fa-star"></i><br>Mediante este formulario pretendemos saber más acerca de ti.</p>
+            <p class="big"><i class="fas fa-thumbs-up"></i><br>Tu información nos ayudará a conocer tus preferencias.</p>
+            <p class="big"><i class="fas fa-check"></i><br>Con ella podremos hacerte recomendaciones sobre cómo y con quién jugar según tus gustos.</p>
+        </div>
+    </div>
+
+    <h2>Formulario de Brawl Stars Club</h2>
+
+    <form action="https://172.22.200.240/resultados.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <label for="preferencia_juego">Preferencia de Juego:</label><br>
+        <select id="preferencia_juego" name="preferencia_juego" required>
+            <option value="Soy un Jugador Casual">Soy un Jugador Casual</option>
+            <option value="Me gusta Competir">Me gusta Competir</option>
+            <option value="Disfruto Jugando en Equipo">Disfruto Jugando en Equipo</option>
+            <option value="Exploro los Modos de Juego">Exploro los Modos de Juego</option>
+        </select>
+        <br><br>
+
+        <label for="personaje_favorito">Personaje Favorito:</label><br>
+        <select id="personaje_favorito" name="personaje_favorito" required>
+            <option value="Shelly">Shelly</option>
+            <option value="Colt">Colt</option>
+            <option value="Jessie">Jessie</option>
+            <option value="Bull">Bull</option>
+            <option value="Brock">Brock</option>
+            <option value="Dynamike">Dynamike</option>
+            <option value="Bo">Bo</option>
+            <option value="Tick">Tick</option>
+            <option value="8-Bit">8-Bit</option>
+            <option value="Emz">Emz</option>
+            <option value="Stu">Stu</option>
+            <option value="Gale">Gale</option>
+            <option value="Surge">Surge</option>
+            <option value="Colette">Colette</option>
+            <option value="Lou">Lou</option>
+            <option value="Amber">Amber</option>
+            <option value="Meg">Meg</option>
+            <option value="Byron">Byron</option>
+            <option value="Edgar">Edgar</option>
+            <option value="Griff">Griff</option>
+        </select>
+        <br><br>
+
+        <label for="estilo_juego">Estilo de Juego:</label><br>
+        <select id="estilo_juego" name="estilo_juego" required>
+            <option value="Ofensivo">Ofensivo</option>
+            <option value="Defensivo">Defensivo</option>
+            <option value="Equilibrado">Equilibrado</option>
+        </select>
+        <br><br>
+
+        <label for="motivo_juego">Motivo por el que juegas a Brawl Stars:</label><br>
+        <select id="motivo_juego" name="motivo_juego" required>
+            <option value="Entretenimiento">Entretenimiento</option>
+            <option value="Competición">Competición</option>
+            <option value="Socialización">Socialización</option>
+            <option value="Desarrollo de Habilidades">Desarrollo de Habilidades</option>
+            <option value="Coleccionismo">Coleccionismo</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <ul class="social-icons">
+            <li><a href="https://instagram.com/brawlstars" target="_blank"><img src="instagram.png" alt="Instagram" style="width: 24px; height: 24px;"></a></li>
+            <li><a href="https://youtube.com/@BrawlStars?si=T_D_ptBRwAeB4Xfc" target="_blank"><img src="youtube.png" alt="YouTube" style="width: 24px; height: 24px;"></a></li>
+            <li><a href="https://facebook.com/brawlstars" target="_blank"><img src="facebook.png" alt="Facebook" style="width: 24px; height: 24px;"></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
